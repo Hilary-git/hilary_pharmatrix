@@ -209,3 +209,7 @@ CREATE TABLE coupon_medicament (
 -- =================================================================================================
 
 -- =================================================================================================
+
+
+insert into users (first_name, last_name, phone,`location`, email, `password`, `role`, photo)
+values('admin', 'admin','655671803','pk13','melihilary00@gmail.com', 'hilary','admin',null);
