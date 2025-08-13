@@ -1,0 +1,160 @@
+:root{
+    --main-color:rgb(25, 79, 2); /*194f02*/
+    --second-color:rgb(38, 38, 38);/*262626*/
+    --main-font:verdana,sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--main-font);
+    height: 100vh;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 15px 10px;
+    color: white;
+    background-color: var(--main-color) ;
+
+
+}
+nav #logo {
+    width: 40%;
+    text-align: center;
+}
+nav #menu {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 10px 30px;
+    padding-right: 20px;
+}
+nav #logo img {
+    width: 180px;
+    
+}
+nav #menu a{
+    display: inline-block;
+    color: white;
+    font-size: 2em;
+
+}
+
+nav #menu a:hover{
+    transform: scale(1.2) translateY(5px);
+    transition: all 0.5s ease-in-out;
+}
+#main{
+    padding: 20px 50px;
+    
+}
+
+#main h2{
+font-weight: bold;
+color: var(--main-color);
+}
+
+#main #drugs .drug{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 25px;
+}
+#main #drugs .drug img{
+    width: 150px;
+}
+/* footer{
+    color: white;
+    background:var(--second-color) ;
+    padding: 30px 10px; 
+}
+footer .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+footer .content .footer-left{
+width: 50%;
+text-align: left;
+}
+footer .content .footer-right h2{
+ color: white;
+}
+footer .content .footer-right span{
+    display: inline-block;
+    margin-bottom: 10px;
+   }
+footer .content .footer-left img{
+width: 200px;
+        
+}
+ footer .content .footer-left p{
+    width: 50%;
+    text-align: left;
+    min-width: 230px;
+}
+footer  .copyend{
+    font-size: 10pt;
+    margin: 20px 0px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 50px;
+    
+} */
+
+footer{
+    color: white;
+    background:var(--second-color) ;
+    padding: 70px 40px;
+}
+footer .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    color: white;
+}
+footer .content .footer-left{
+width: 50%;
+text-align: left;
+}
+footer .content .footer-right{
+ display: inline-block;
+ margin: 10px;
+}
+footer .content .footer-right h1{
+    display: inline-block;
+    margin: 10px;
+   }
+footer .content .footer-right span{
+    display: inline-block;
+    margin-bottom: 10px;
+   }
+footer .content .footer-left img{
+width: 200px;
+        
+}
+ footer .content .footer-left p{
+    width: 50%;
+    text-align: left;
+    min-width: 230px;
+}
+footer  .copyend{
+    font-size: 10pt;
+    margin: 20px 0px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 50px;
+    
+}

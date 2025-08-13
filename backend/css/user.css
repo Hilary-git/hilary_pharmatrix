@@ -1,0 +1,40 @@
+/* Styles spécifiques à la page Utilisateurs */
+
+#usersTable th {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #4e73df;
+    border-bottom: 2px solid #e3e6f0;
+}
+
+#usersTable td {
+    vertical-align: middle;
+}
+
+#usersTable .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    margin: 0 2px;
+}
+
+.card-header .dropdown-menu {
+    font-size: 0.85rem;
+}
+
+.card-header .dropdown-menu i {
+    width: 20px;
+    text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #usersTable .btn-sm {
+        margin-bottom: 2px;
+        display: inline-block;
+    }
+    
+    #usersTable td, #usersTable th {
+        white-space: nowrap;
+    }
+}
